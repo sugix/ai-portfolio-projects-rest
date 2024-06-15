@@ -35,9 +35,9 @@ Please also refer to my [AI Profile](https://sugiv.fyi/ai) and individual projec
 
 ## Generative Adversial Networks (GANs)
 
-- [Building Basic Generative Adversial Networks GANs](GAN_Specialization/Building Basic Generative Adversial Networks(GANs)/)
-- [Apply Generative Adversial Networks GANs ](GAN_Specialization/Apply Generative Adversial Networks(GANs)/)
-- [Building Better Generative Adversial Networks GANs](GAN_Specialization/Building Better Generative Adversial Networks(GANs)/)
+- [Building Basic Generative Adversial Networks GANs](GAN_Specialization/Building Basic Generative Adversial Networks/)
+- [Apply Generative Adversial Networks GANs ](GAN_Specialization/Apply Generative Adversial Networks/)
+- [Building Better Generative Adversial Networks GANs](GAN_Specialization/Building Better Generative Adversial Networks/)
 
 ## Natural Language Processing
 
@@ -65,6 +65,6 @@ Please also refer to my [AI Profile](https://sugiv.fyi/ai) and individual projec
 
 ## Natural Language Understanding
 
-- [Supervised Sentiment Analysis-Multi Domain](Natural_Language_Understanging_Specialization/Supervised Sentiment Analysis (Multi Domain))
+- [Supervised Sentiment Analysis-Multi Domain](Natural_Language_Understanging_Specialization/Supervised Sentiment Analysis Multi Domain/)
 - [Few-Shot-->OpenQA With Stanford DSP](Natural_Language_Understanging_Specialization/Few-Shot OpenQA With Stanford DSP/)
-- [Compositional Generation ReCOGS](Natural_Language_Understanging_Specialization/Compositional Generation (ReCOGS)/)
+- [Compositional Generation ReCOGS](Natural_Language_Understanging_Specialization/Compositional Generation ReCOGS/)
