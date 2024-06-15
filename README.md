@@ -20,7 +20,7 @@ Please also refer to my [AI Profile](https://sugiv.fyi/ai) and individual projec
 
 ## Machine Learning Specialization
 
-- [Advanced_Learning_Algorithms](ML_Specialization/Advanced Learning Algorithms/)
+- [Advanced Learning Algorithms](ML_Specialization/Advanced Learning Algorithms/)
 - [Supervised_Machine_Learning==>Regression_and_Classification](ML_Specialization/Supervised Machine Learning: Regression and Classification/)
 - [UnSupervised_Machine_Learning-->Recommenders_Reinforcement_Learning](ML_Specialization/Unsupervised Learning: Recommenders, Reinforcement Learning/)
 - [Udacity_Machine_Learning_Nanodegree_Using_Pytorch](ML_Specialization/Udacity/)
