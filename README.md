@@ -43,10 +43,28 @@ Please also refer to my [AI Profile](https://sugiv.fyi/ai) and individual projec
 
 ### Coursera
 
+- [Natural Language Processing with Attention Models](NLP Specialization-Nanodegrees/Natural Language Processing with Attention Models/)
+- [Natural Language Processing with Classification and Vector Spaces] (NLP Specialization-Nanodegrees/Natural Language Processing with Classification and Vector Spaces/)
+- [Natural Language Processing with Probabilistic Models] (NLP Specialization-Nanodegrees/Natural Language Processing with Probabilistic Models/)
+- [Natural Language Processing with Sequence Models] (NLP Specialization-Nanodegrees/Natural Language Processing with Sequence Models/)
+
 ### Udacity
 
+- [DNN Speech Recognizer] (NLP Specialization-Nanodegrees/Udacity/DNN Speech Recognizer/)
+- [Machine Translation] (NLP Specialization-Nanodegrees/Udacity/Machine Translation/)
+- [Part of Speech Tagging] (NLP Specialization-Nanodegrees/Udacity/Part of Speech Tagging/)
+
 ### Stanford
+
+- [Co-occurence] (NLP Specialization-Nanodegrees/Stanford/1_Co-occurence)
+- [Word2Vec] (NLP Specialization-Nanodegrees/Stanford/2_Word2Vec)
+- [Neural Transition-Based Dependency Parsing] (NLP Specialization-Nanodegrees/Stanford/3_Neural Transition-Based Dependency Parsing/)
+- [Neural Machine Translation with RNNs] (NLP Specialization-Nanodegrees/Stanford/4_Neural Machine Translation with RNNs)
+- [Transformers and Pretraining](NLP Specialization-Nanodegrees/Stanford/5_Transformers and Pretraining/)
 
 
 ## Natural Language Understanding
 
+- [Supervised Sentiment Analysis (Multi Domain)] (Natural_Language_Understanging_Specialization/Supervised Sentiment Analysis (Multi Domain))
+- [Few-Shot OpenQA With Stanford DSP] (Natural_Language_Understanging_Specialization/Few-Shot OpenQA With Stanford DSP/)
+- [Compositional Generation (ReCOGS)] (Natural_Language_Understanging_Specialization/Compositional Generation (ReCOGS)/)
