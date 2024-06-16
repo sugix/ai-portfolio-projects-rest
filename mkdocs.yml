@@ -1,0 +1,5 @@
+site_name: Sugi V's AI Portfolio Projects
+site_dir: public
+theme: lux
+plugins:
+    - mkdocs-jupyter
