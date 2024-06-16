@@ -6,6 +6,13 @@ Please also refer to my [AI Profile](https://sugiv.fyi/ai) and individual projec
 
 ## Course Specific Project Pages
 
+- [Math for ML, DL Specializations Project Page](https://mathematics-for-ml-dl-specialization-myself33844-07da62a263e11e.gitlab.io/)
+- [ML Resources Project Page](https://all-my-machine-learning-resources-sugix-764032f08fe6ccb1f64a88e.gitlab.io/)
+- [Deep Learning Project Page](https://
+deep-learning-resources-myself3384444-bad1b31bd5fc2d9baae8352a4.gitlab.io/)
+- [NLP NLU Project Page](https://all-my-natural-language-processing-and-understan-c799a64adbc09f.gitlab.io/)
+- [GAN Specialization Project Page](https://gan-specialization-resources-sugix-6a8dce3badd3b20aa92cb363ff77.gitlab.io/)
+
 ## Mathematics For ML Specialization [Imperial College London]
 
 - [Linear AlgebraNotebooks](Imperial College London Math For ML And DL Specialization/Linear_Algebra/)
