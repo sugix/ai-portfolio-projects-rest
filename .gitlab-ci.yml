@@ -1,10 +1,6 @@
 image: python:3.8-buster
 
 before_script:
-  - git config --global user.name "Bot"
-  - git config --global user.email "ci@domain.com"
-  - git checkout "$CI_COMMIT_REF_NAME"
-  - git status
   - pip install -r requirements.txt
 
 test:
@@ -14,6 +10,8 @@ test:
   artifacts:
     paths:
     - test
+  variables:
+    GIT_STRATEGY: clone
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
 
@@ -24,5 +22,7 @@ pages:
   artifacts:
     paths:
     - public
+  variables:
+    GIT_STRATEGY: clone
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
