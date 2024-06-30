@@ -1,0 +1,248 @@
+wandb_version: 1
+
+external_save_dir:
+  desc: null
+  value: OTTER-LLaMA7B-densecaption
+run_name:
+  desc: null
+  value: OTTER-LLaMA7B-densecaption
+model_name:
+  desc: null
+  value: flamingo
+inst_format:
+  desc: null
+  value: llama2
+past_mimicit_path:
+  desc: null
+  value: ''
+past_images_path:
+  desc: null
+  value: ''
+past_train_config_path:
+  desc: null
+  value: ''
+mimicit_path:
+  desc: null
+  value: /root/Otter/mimicit_data/CGD/CGD_instructions.json
+images_path:
+  desc: null
+  value: /root/Otter/mimicit_data/CGD/CGD.json
+train_config_path:
+  desc: null
+  value: /root/Otter/mimicit_data/CGD/CGD_train.json
+past_mimicit_ic_path:
+  desc: null
+  value: ''
+past_images_ic_path:
+  desc: null
+  value: ''
+past_train_config_ic_path:
+  desc: null
+  value: ''
+mimicit_ic_path:
+  desc: null
+  value: ''
+images_ic_path:
+  desc: null
+  value: ''
+train_config_ic_path:
+  desc: null
+  value: ''
+mimicit_text_path:
+  desc: null
+  value: ''
+train_config_text_path:
+  desc: null
+  value: ''
+past_mimicit_text_path:
+  desc: null
+  value: ''
+past_train_config_text_path:
+  desc: null
+  value: ''
+training_data_yaml:
+  desc: null
+  value: ''
+past_mimicit_vt_path:
+  desc: null
+  value: ''
+past_images_vt_path:
+  desc: null
+  value: ''
+mimicit_vt_path:
+  desc: null
+  value: ''
+images_vt_path:
+  desc: null
+  value: ''
+past_subset_ration:
+  desc: null
+  value: 1.0
+gradient_checkpointing:
+  desc: null
+  value: false
+offline:
+  desc: null
+  value: false
+save_ckpt_each_epoch:
+  desc: null
+  value: false
+num_epochs:
+  desc: null
+  value: 1
+logging_steps:
+  desc: null
+  value: 100
+batch_size:
+  desc: null
+  value: 2
+train_num_samples:
+  desc: null
+  value: 70941
+gradient_accumulation_steps:
+  desc: null
+  value: 1
+save_steps_interval:
+  desc: null
+  value: -1
+pretrained_model_name_or_path:
+  desc: null
+  value: /root/flamingo-llama2-chat-7B-init/
+trained_ckpt:
+  desc: null
+  value: null
+seed:
+  desc: null
+  value: 42
+learning_rate:
+  desc: null
+  value: 1.0e-05
+lr_scheduler:
+  desc: null
+  value: cosine
+warmup_steps:
+  desc: null
+  value: 177.36
+warmup_steps_ratio:
+  desc: null
+  value: 0.01
+weight_decay:
+  desc: null
+  value: 0.1
+workers:
+  desc: null
+  value: 1
+dist_url:
+  desc: null
+  value: env://
+dist_backend:
+  desc: null
+  value: nccl
+horovod:
+  desc: null
+  value: false
+no_set_device_rank:
+  desc: null
+  value: false
+mask_lm_head:
+  desc: null
+  value: false
+max_seq_len:
+  desc: null
+  value: 2048
+patch_image_size:
+  desc: null
+  value: 224
+resample_frames:
+  desc: null
+  value: 32
+save_hf_model:
+  desc: null
+  value: false
+customized_config:
+  desc: null
+  value: null
+task_name:
+  desc: null
+  value: ''
+report_to_wandb:
+  desc: null
+  value: true
+wandb_project:
+  desc: null
+  value: otter-training
+wandb_entity:
+  desc: null
+  value: sugi205
+save_checkpoints_to_wandb:
+  desc: null
+  value: false
+resume_from_checkpoint:
+  desc: null
+  value: false
+delete_previous_checkpoint:
+  desc: null
+  value: false
+local_rank:
+  desc: null
+  value: 0
+rank:
+  desc: null
+  value: 0
+world_size:
+  desc: null
+  value: 2
+tokenizer:
+  desc: null
+  value: 'LlamaTokenizer(name_or_path=''/root/Llama-2-7b-chat-hf'', vocab_size=32000,
+    model_max_length=1000000000000000019884624838656, is_fast=False, padding_side=''right'',
+    truncation_side=''right'', special_tokens={''bos_token'': AddedToken("<s>", rstrip=False,
+    lstrip=False, single_word=False, normalized=False), ''eos_token'': AddedToken("</s>",
+    rstrip=False, lstrip=False, single_word=False, normalized=False), ''unk_token'':
+    AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False),
+    ''pad_token'': ''<PAD>'', ''additional_special_tokens'': [''<answer>'']}, clean_up_tokenization_spaces=False)'
+distributed_type:
+  desc: null
+  value: DistributedType.MULTI_GPU
+task:
+  desc: null
+  value: pretrain
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.18
+    cli_version: 0.15.12
+    framework: huggingface
+    huggingface_version: 4.33.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1697794664.796387
+    t:
+      1:
+      - 1
+      - 11
+      - 41
+      - 49
+      - 55
+      - 71
+      - 98
+      - 105
+      2:
+      - 1
+      - 11
+      - 41
+      - 49
+      - 55
+      - 71
+      - 98
+      - 105
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.9.18
+      5: 0.15.12
+      6: 4.33.1
+      8:
+      - 5
+      13: linux-x86_64

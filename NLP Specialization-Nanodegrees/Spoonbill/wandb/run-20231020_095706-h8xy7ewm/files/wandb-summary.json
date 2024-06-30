@@ -1,0 +1,1 @@
+{"data_time": 0.002854585647583008, "step_time": 0.5638282299041748, "mimicit_samples_per_second": 14.188718435328498, "mimicit_samples_per_second_per_gpu": 3.5471796088321246, "lr": 0.0, "_timestamp": 1697800840.3433268, "loss_mimicit": 0.9266868233680725, "global_step": 8867, "_runtime": 5014.1571588516235, "_step": 8867, "_wandb": {"runtime": 5017}}

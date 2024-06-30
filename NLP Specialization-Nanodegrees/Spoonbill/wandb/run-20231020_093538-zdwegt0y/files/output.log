@@ -1,0 +1,67 @@
+  0%|                                                                                                                                               | 0/8868 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/root/Otter/pipeline/train/instruction_following.py", line 839, in <module>
+    main()
+  File "/root/Otter/pipeline/train/instruction_following.py", line 734, in main
+    train_one_epoch(
+  File "/root/Otter/pipeline/train/instruction_following.py", line 154, in train_one_epoch
+    loss_mimicit = model(
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+input_ids: torch.Size([4, 81])
+images: torch.Size([4, 1, 2, 3, 224, 224])
+attention_mask: torch.Size([4, 81])
+labels: torch.Size([4, 81])
+model: FlamingoForConditionalGeneration
+model dtype: torch.float32
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/parallel/distributed.py", line 1519, in forward
+    else self._run_ddp_forward(*inputs, **kwargs)
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/parallel/distributed.py", line 1355, in _run_ddp_forward
+    return self.module(*inputs, **kwargs)  # type: ignore[index]
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/accelerate/utils/operations.py", line 636, in forward
+    return model_forward(*args, **kwargs)
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/accelerate/utils/operations.py", line 624, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/amp/autocast_mode.py", line 16, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/root/Otter/src/otter_ai/models/flamingo/modeling_flamingo.py", line 852, in forward
+    output = self.lang_encoder(
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/Otter/src/otter_ai/models/flamingo/modeling_flamingo.py", line 463, in forward
+    return super().forward(*input, **kwargs)  # Call the other parent's forward method
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py", line 820, in forward
+    outputs = self.model(
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py", line 708, in forward
+    layer_outputs = decoder_layer(
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/Otter/src/otter_ai/models/flamingo/modeling_flamingo.py", line 381, in forward
+    lang_x = self.gated_cross_attn_layer(
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/Otter/src/otter_ai/models/flamingo/modeling_flamingo.py", line 338, in forward
+    x = ff(x)
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/otter/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 128.00 MiB. GPU 0 has a total capacty of 44.56 GiB of which 93.69 MiB is free. Process 392748 has 44.46 GiB memory in use. Of the allocated memory 43.93 GiB is allocated by PyTorch, and 57.05 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
