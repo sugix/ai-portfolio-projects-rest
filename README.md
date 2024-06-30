@@ -68,6 +68,13 @@ Please also refer to my [AI Profile](https://sugiv.fyi/ai) and individual projec
 - [Neural Machine Translation with RNNs](NLP Specialization-Nanodegrees/Stanford/4_Neural Machine Translation with RNNs)
 - [Transformers and Pretraining](NLP Specialization-Nanodegrees/Stanford/5_Transformers and Pretraining/)
 
+### Fine-Tuning + PEFT + Instruction/Visual-Instruction Tuning
+
+[My HuggingFace Profile](https://huggingface.co/sugiv)
+
+- [Garuda - Llama2 + Instruction Tuning with Alpaca + Dolly Data + PEFT](NLP Specialization-Nanodegrees/Garuda/)
+- [Spoonbill - OpenFlamingo + Garuda + Visual Instruction Tuning + Multi-GPU Training](NLP Specialization-Nanodegrees/Spoonbill/)
+
 
 ## Natural Language Understanding
 
