@@ -71,6 +71,7 @@ Please also refer to my [AI Profile](https://sugiv.fyi/ai) and individual projec
 ### Fine-Tuning + PEFT + Instruction/Visual-Instruction Tuning
 
 [My HuggingFace Profile](https://huggingface.co/sugiv)
+[My Wandb Profile](https://wandb.ai/sugi205)
 
 - [Garuda - Llama2 + Instruction Tuning with Alpaca + Dolly Data + PEFT](NLP Specialization-Nanodegrees/Garuda/)
 - [Spoonbill - OpenFlamingo + Garuda + Visual Instruction Tuning + Multi-GPU Training](NLP Specialization-Nanodegrees/Spoonbill/)
